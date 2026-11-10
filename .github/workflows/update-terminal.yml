@@ -159,7 +159,7 @@ jobs:
           
           
           if __name__ == "__main__":
-              raise SystemExit(main())
+              main()
           
           """Render data/contributions.json as the classic 53x7 calendar of rounded boxes.
           
@@ -342,7 +342,7 @@ jobs:
           
           
           if __name__ == "__main__":
-              raise SystemExit(main())
+              main()
           
           from xml.sax.saxutils import escape
           p=Path("contrib-heatmap.svg")
